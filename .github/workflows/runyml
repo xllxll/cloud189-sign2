@@ -7,7 +7,7 @@ on:
     branches: [ main ]
   watch:
     types: started
-  schedule:
+  #schedule:
     - cron: 1 0 * * *
 
 jobs:
